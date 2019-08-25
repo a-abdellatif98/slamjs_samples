@@ -1,23 +1,16 @@
 let videoWidth, videoHeight;
-
 let qvga = {width: {exact: 320}, height: {exact: 240}};
-
 let vga = {width: {exact: 640}, height: {exact: 480}};
-
 let resolution = window.innerWidth < 640 ? qvga : vga;
 
 // whether streaming video from the camera.
 let streaming = false;
-
 let video = document.getElementById('video');
 let canvasOutput = document.getElementById('canvasOutput');
 let canvasOutputCtx = canvasOutput.getContext('2d');
 let stream = null;
-
 let slam = null;
-
 let trStatus = -2;
-
 let info = document.getElementById('info');
 
 function startCamera() {
@@ -50,10 +43,8 @@ let src = null;
 let dstC1 = null;
 let dstC3 = null;
 let dstC4 = null;
-
 let canvasInput = null;
 let canvasInputCtx = null;
-
 let canvasBuffer = null;
 let canvasBufferCtx = null;
 
