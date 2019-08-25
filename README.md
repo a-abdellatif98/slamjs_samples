@@ -1,6 +1,6 @@
 # Samples for ORB-SLAM2 in Web
 
-HOW to run?.<br>
+How to run?.<br>
 1-you have to install apache server.<br>
 2-but the code in the HTDOC Folder.<br>
 3-start the Server.<br>
